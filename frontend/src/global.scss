@@ -1,7 +1,10 @@
 // src/global.scss
-$primary-color: #1d3557; // Dark grey
-$secondary-color: #457b9d;
-$tertiary-color: #e63946; 
+
+:root {
+    --primary-color: #ff6347;
+    --secondary-color: #6a5acd;
+    --tertiary-color: #40e0d0;
+}
 $text-color: white;
 $font-size: 100%;
 $font-weight: 500;

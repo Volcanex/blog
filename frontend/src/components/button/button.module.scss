@@ -14,7 +14,7 @@
     margin: 5px;
   
     &:hover {
-      background-color: $tertiary-color;
+      background-color: var(--tertiary-color);
       box-shadow: $button-box-shadow;
     }
   
@@ -30,8 +30,8 @@
   }
   
   .active {
-    background-color: $tertiary-color;
-    color: $secondary-color;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
   }
   .UsernameButton {
     margin: 0px 0px 0px 6px;

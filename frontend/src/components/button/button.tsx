@@ -8,9 +8,11 @@ interface buttonProps {
     handleClick: () => void;
     label: string;
     isUsernameButton?: boolean;
+    children?: React.ReactNode; // add this line
+    onClick?: () => void; // add this line
 }
 
-const button: React.FC<buttonProps> = ({ isActive, handleClick, label, isUsernameButton }) => {
+const Button: React.FC<buttonProps> = ({ isActive, handleClick, label, isUsernameButton }) => {
     return (
         <button
             className={classNames(
@@ -26,4 +28,4 @@ const button: React.FC<buttonProps> = ({ isActive, handleClick, label, isUsernam
     );
 };
 
-export default button;
+export default Button;

@@ -38,9 +38,9 @@ export const User = ({ className }: UserProps) => {
                         label="Profile"
                     />
                     <LinkButton
-                        to="/play"
-                        isActive={isActive['Play']}
-                        label="Play"
+                        to="/blog"
+                        isActive={isActive['Blog']}
+                        label="Blog"
                     />
                     <LinkButton
                         to="/messages"
