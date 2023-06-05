@@ -1,0 +1,18 @@
+// src/global.scss
+$primary-color: #1d3557; // Dark grey
+$secondary-color: #457b9d;
+$tertiary-color: #e63946; 
+$text-color: white;
+$font-size: 100%;
+$font-weight: 500;
+$font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$button-padding: 6px 12px;
+$button-border-radius: 15px;
+$button-font-size: 16px;
+$button-font-family: $font-family;
+$button-font-weight: 600;
+$button-background-color: #000000;
+$button-border-color: #1A1A1A;
+$button-text-color: #FFFFFF;
+$button-transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+$button-box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="9.655 31.827 451.576 282.697" width="451.576px" height="282.697px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>@import url(https://fonts.googleapis.com/css2?family=Courier+Prime%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700&amp;display=swap);</style>
+  </defs>
+  <g style="" id="Routes" transform="matrix(1, 0, 0, 1, 0, 3.992308)">
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 21.78 69.56 L 9.655 69.51 L 21.78 69.56 Z" id="Alaska-Kamchatka"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 136.517 53.619 L 125.331 53.468 L 136.517 53.619 Z" id="Northwest Territory-Greenland"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 115.509 74.937 L 141.177 48.634 L 115.509 74.937 Z" id="Greenland-Ontario"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 146.553 53.653 L 146.39 74.367 L 146.553 53.653 Z" id="Greenland-Quebec"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 183.819 69.33 L 178.771 64.087 L 183.819 69.33 Z" id="Greenland-Iceland"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 198.986 80.113 L 199.004 90.132 L 198.986 80.113 Z" id="Iceland-Great Britain"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 225.087 80.366 L 204.477 80.301 L 225.087 80.366 Z" id="Iceland-Scandinavia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 225.128 80.336 L 204.069 101.476 L 225.128 80.336 Z" id="Great Britain-Scandinavia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 235.403 91.073 L 230.618 95.772 L 235.403 91.073 Z" id="Northern Europe-Scandinavia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 204.2 101.334 L 220.976 101.289 L 204.2 101.334 Z" id="Great Britain-Northern Europe"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 203.763 121.662 L 209.266 127.684 L 203.763 121.662 Z" id="Great Britain-Western Europe"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 199.151 168.833 L 204.4 174.367 L 199.151 168.833 Z" id="Western Europe-North Africa"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 225.146 158.848 L 225.22 174.391 C 225.22 174.391 225.322 159.037 225.146 158.848 Z" id="Southern Europe-North Africa"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 246.333 163.376 L 246.462 174.288 L 246.333 163.376 Z" id="Southern Europe-Egypt"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 441.789 69.817 L 456.054 69.771 L 441.789 69.817 Z" id="Kamchatka-Alaska"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 413.238 101.262 L 418.876 106.64 L 413.238 101.262 Z" id="Kamchatka-Japan"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 418.986 121.797 L 403.151 121.715 L 418.986 121.797 Z" id="Mongolia-Japan"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 283.964 210.77 L 293.958 200.217 L 283.964 210.77 Z" id="Middle East-East Africa"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 382.425 221.027 L 377.643 215.902 L 382.425 221.027 Z" id="Siam-Indonesia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 189.621 205.847 L 172.284 206.098 L 189.621 205.847 Z" id="Brazil-North Africa"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 283.385 252.449 L 299.188 268.404 L 283.385 252.449 Z" id="East Africa-Madagascar"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 267.71 283.966 L 287.472 284.004 L 267.71 283.966 Z" id="South Africa-Madagascar"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 402.985 226.832 L 395.567 234.315 L 402.985 226.832 Z" id="Indonesia-New Guinea"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 393.835 241.815 L 401.029 249.448 L 393.835 241.815 Z" id="Indonesia-Western Australia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 414.009 247.129 L 414.161 237.241 L 414.009 247.129 Z" id="New Guinea-Western Australia"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-miterlimit: 1;" d="M 434.577 242.519 L 429.74 237.401 L 434.577 242.519 Z" id="New Guinea-Eastern Australia"/>
+  </g>
+  <g style="" id="Territories" transform="matrix(1, 0, 0, 1, 0, 3.992308)">
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 47.181 69.657 L 62.94 84.986 L 62.977 48.524 L 21.261 48.699 L 21.272 69.584 L 47.181 69.657 Z" id="Alaska"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 63.068 48.485 L 120.614 48.417 L 125.56 53.656 L 109.847 69.607 L 62.984 69.622 L 63.068 48.485 Z" id="Northwest Territory"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 136.191 43.222 L 167.857 74.918 L 188.741 53.709 L 188.708 28.021 L 151.981 27.835 L 136.191 43.222 Z" id="Greenland"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 63.054 69.678 L 63.053 101.351 L 94.618 101.102 L 94.562 69.685 L 63.054 69.678 Z" id="Alberta"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 94.857 69.875 L 109.449 69.489 L 120.421 80.423 L 120.507 90.546 L 110.001 101.163 L 94.666 101.154 L 94.857 69.875 Z" id="Ontario"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 120.737 80.23 L 136.783 64.415 L 146.348 74.604 L 146.135 90.649 L 136.602 101.303 L 120.506 101.181 L 120.737 80.23 Z" id="Quebec"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 62.972 101.165 L 63.098 132.372 L 89.257 132.347 L 105.193 116.658 L 105.088 101.135 L 62.972 101.165 Z" id="Western US"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 136.653 101.238 L 136.604 116.264 L 120.604 132.429 L 89.408 132.438 L 105.281 116.36 L 105.156 101.086 L 136.653 101.238 Z" id="Eastern US"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 120.501 132.398 L 105.146 147.877 L 94.451 147.999 L 120.89 174.61 L 105.193 174.685 L 63.135 132.425 L 120.501 132.398 Z" id="Central America"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 183.774 69.215 L 183.592 80.218 L 204.408 80.295 L 204.38 69.415 L 183.774 69.215 Z" id="Iceland"/>
+    <path style="stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 225.037 90.993 L 240.806 90.695 L 240.9 80.099 L 256.791 79.849 L 256.839 48.633 L 224.997 80.449 L 225.037 90.993 Z" id="Scandinavia"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 193.612 90.532 L 204.196 90.471 L 204.07 121.79 L 183.204 121.799 L 183.325 111.709 L 193.691 111.793 L 193.612 90.532 Z" id="Great Britain"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 220.677 132.292 L 220.674 95.69 L 230.659 95.837 L 230.68 105.917 L 256.822 106.314 L 257.142 132.456 L 220.677 132.292 Z" id="Northern Europe"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 188.708 148.553 L 188.647 168.918 L 209.678 168.802 L 209.862 158.388 L 220.693 147.551 L 220.711 117.117 L 188.708 148.553 Z" id="Western Europe"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 220.624 147.489 L 220.716 154.015 L 230.609 164.13 L 230.607 148.483 L 246.376 163.948 L 246.196 132.603 L 220.72 132.431 L 220.624 147.489 Z" id="Southern Europe"/>
+    <path style="paint-order: fill; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 309.097 48.961 L 256.949 48.516 L 257.475 131.96 L 277.836 152.848 L 277.755 136.769 L 309.066 105.674 L 309.097 48.961 Z" id="Ukraine"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 309.052 105.533 L 335.689 131.462 L 335.739 64.22 L 319.303 49.002 L 309.169 48.982 L 309.052 105.533 Z" id="Ural"/>
+    <path style="stroke-linejoin: round; stroke-linecap: round; stroke: rgb(0, 0, 0); fill: none;" d="M 319.483 49.008 L 340.465 28.501 L 361.486 48.688 L 362.032 105.535 L 335.834 131.212 L 336.115 64.38 L 319.483 49.008 Z" id="Siberia"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 392.245 48.696 L 392.217 69.432 L 381.686 80.268 L 361.658 80.112 L 361.826 48.723 L 392.245 48.696 Z" id="Yakutsk"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 362.022 105.563 L 382.309 105.997 L 381.843 79.942 L 361.577 79.949 L 362.022 105.563 Z" id="Irkutsk"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 381.955 80.015 L 382.393 105.768 L 408.835 105.884 L 461.231 48.598 L 392.294 48.696 L 392.356 69.603 L 381.955 80.015 Z" id="Kamchatka"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 314.57 153.639 L 288.15 153.522 L 287.9 127.088 L 309.09 105.598 L 335.793 131.637 L 314.57 153.639 Z" id="Afghanisitan"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 377.519 184.517 L 329.76 137.993 L 351.191 116.368 L 372.411 137.512 L 392.94 137.729 L 408.679 153.287 L 377.519 184.517 Z" id="China"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 351.432 116.729 L 372.587 137.544 L 393.165 137.641 L 403.155 126.709 L 403.333 105.966 L 362.013 105.594 L 351.432 116.729 Z" id="Mongolia"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 419.098 106.715 L 419.009 131.735 L 410.064 141.361 L 418.171 148.068 L 428.621 136.259 L 428.968 106.801 L 419.098 106.715 Z" id="Japan"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 246.718 153.498 L 314.6 153.717 L 314.354 168.925 L 305.222 180.332 L 319.537 195.23 L 304.473 210.331 L 246.718 153.498 Z" id="Middle East"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 89.117 174.676 L 73.693 189.544 L 151.595 189.759 L 136.439 174.645 L 89.117 174.676 Z" id="Venezuela"/>
+    <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;" d="M 73.626 189.648 L 73.654 195.101 L 110.388 237.551 L 137.136 237.566 L 94.297 189.731 L 73.626 189.648 Z" id="Peru"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 157.119 189.813 L 172.715 205.858 L 172.645 215.899 L 151.826 237.112 L 136.942 237.227 L 94.1 189.81 L 157.119 189.813 Z" id="Brazil"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 110.299 237.699 L 110.413 293.488 L 126.054 309.515 L 125.981 279.459 L 126.152 263.223 L 151.703 237.338 L 110.299 237.699 Z" id="Argentina"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 188.799 190.247 L 188.818 205.618 L 235.056 237.703 L 267.526 205.685 L 235.469 174.525 L 204.464 174.595 L 188.799 190.247 Z" id="Northern Africa"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 272.829 179.303 L 272.754 200.249 L 267.268 205.642 L 235.456 174.435 L 267.792 174.151 L 272.829 179.303 Z" id="Egypt"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 299.161 226.761 L 273.021 200.225 L 256.904 216.203 L 256.77 258.162 L 283.243 258.093 L 283.275 242.764 L 299.161 226.761 Z" id="Eastern Africa"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 235.237 237.601 L 235.503 247.874 L 246.287 258.126 L 257.051 258.118 L 256.728 216.314 L 235.237 237.601 Z" id="Congo"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 267.373 304.89 L 267.472 273.92 L 282.955 258.34 L 246.558 258.278 L 235.566 247.763 L 235.477 304.516 L 267.373 304.89 Z" id="South Africa"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 287.883 273.956 L 287.95 294.906 L 304.058 294.725 L 304.429 263.416 L 293.789 273.785 L 287.883 273.956 Z" id="Madagascar"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 314.63 169.311 L 314.453 153.5 L 329.746 137.858 L 377.669 185.113 L 330.191 226.681 L 330.127 185.136 L 314.63 169.311 Z" id="India"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 360.837 199.771 L 377.909 216.256 L 387.827 205.725 L 387.847 195.053 L 377.714 184.93 L 360.837 199.771 Z" id="Siam"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 356.189 216.247 L 371.243 232.88 L 382.381 220.969 L 398.11 237.533 L 377.096 259.159 L 356.151 236.846 L 356.189 216.247 Z" id="Indonesia"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 398.596 221.588 L 398.407 216.085 L 419.155 216.257 L 429.551 226.947 L 429.601 237.446 L 414.121 237.157 L 398.596 221.588 Z" id="New Guinea"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 382.279 269.03 L 403.494 247.578 L 419.237 247.751 L 419.28 294.155 L 398.228 294.243 L 382.315 310.098 L 382.279 269.03 Z" id="Western Australia"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 434.718 242.633 L 419.435 258.114 L 419.287 294.18 L 435.031 310.532 L 450.599 294.341 L 450.877 258.294 L 434.718 242.633 Z" id="Eastern Australia"/>
+  </g>
+  <g id="Points" transform="matrix(1, 0, 0, 1, -90.236839, 36.156281)" style="">
+    <circle id="AlaskaPoint" cx="131.881" cy="26.657" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Northwest TerritoryPoint" cx="180.628" cy="26.114" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="GreenlandPoint" cx="256.093" cy="13.071" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="AlbertaPoint" cx="169.089" cy="52.767" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="OntarioPoint" cx="197.078" cy="53.134" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="QuebecPoint" cx="224.543" cy="52.968" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Western USPoint" cx="170.223" cy="82.955" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Eastern USPoint" cx="209.81" cy="83.917" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Central AmericaPoint" cx="178.168" cy="108.809" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="IcelandPoint" cx="284.508" cy="29.748" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="ScandinaviaPoint" cx="337.972" cy="38.134" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Great BritainPoint" cx="275.676" cy="70.646" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Northern EuropePoint" cx="325.731" cy="85.538" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Western EuropePoint" cx="289.158" cy="123.256" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Southern EuropePoint" cx="325.917" cy="108.508" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="UkrainePoint" cx="372.005" cy="61.532" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="UralPoint" cx="413.022" cy="50.917" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="SiberiaPoint" cx="439.218" cy="50.983" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="YakutskPoint" cx="467.469" cy="31.64" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="IrkutskPoint" cx="461.882" cy="60.57" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="KamchatkaPoint" cx="497.294" cy="49.698" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="AfghanisitanPoint" cx="399.015" cy="98.904" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="ChinaPoint" cx="468.12" cy="123.405" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="MongoliaPoint" cx="468.463" cy="88.262" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="JapanPoint" cx="526.854" cy="89.868" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Middle EastPoint" cx="379.642" cy="138.545" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="VenezuelaPoint" cx="203.228" cy="150.124" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="BrazilPoint" cx="239.032" cy="177.588" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="PeruPoint" cx="189.142" cy="178.104" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="ArgentinaPoint" cx="214.443" cy="215.916" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="North AfricaPoint" cx="299.461" cy="165.39" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="EgyptPoint" cx="351.588" cy="152.933" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="East AfricaPoint" cx="364.706" cy="194.644" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="CongoPoint" cx="336.456" cy="208.942" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="South AfricaPoint" cx="341.823" cy="251.974" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="MadagascarPoint" cx="386.107" cy="251.558" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="IndonesiaPoint" cx="468.898" cy="208.234" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="New GuineaPoint" cx="507.135" cy="195.162" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Western AustraliaPoint" cx="488.532" cy="244.89" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="Eastern AustraliaPoint" cx="526.698" cy="245.448" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="IndiaPoint" cx="438.549" cy="151.69" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+    <circle id="SiamPoint" cx="466.564" cy="168.938" r="5" style="stroke: rgb(0, 0, 0); fill: none;"/>
+  </g>
+  <g id="Text" transform="matrix(1, 0, 0, 1, 4.140123, -2.661541)" style="">
+    <text id="AlaskaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="37.557" y="67.454">0</text>
+    <text id="NorthwestTerritoryText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="86.304" y="66.911">0</text>
+    <text id="GreenlandText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="161.768" y="53.868">0</text>
+    <text id="AlbertaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="74.765" y="93.564">0</text>
+    <text id="OntarioText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="102.754" y="93.931">0</text>
+    <text id="QuebecText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="130.219" y="93.765">0</text>
+    <text id="WesternUSText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="75.899" y="123.752">0</text>
+    <text id="EasternUSText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="115.486" y="124.714">0</text>
+    <text id="CentralAmericaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="83.844" y="149.606">0</text>
+    <text id="IcelandText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="190.184" y="70.545">0</text>
+    <text id="ScandinaviaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="243.648" y="78.931">0</text>
+    <text id="GreatBritainText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="181.352" y="111.443">0</text>
+    <text id="NorthernEuropeText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="231.406" y="126.335">0</text>
+    <text id="WesternEuropeText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="194.833" y="164.053">0</text>
+    <text id="SouthernEuropeText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="231.593" y="149.305">0</text>
+    <text id="UkraineText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="277.681" y="102.329">0</text>
+    <text id="UralText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="318.698" y="91.714">0</text>
+    <text id="SiberiaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="344.893" y="91.78">0</text>
+    <text id="YakutskText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="373.145" y="72.437">0</text>
+    <text id="IrkutskText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="367.557" y="101.367">0</text>
+    <text id="KamchatkaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="402.97" y="90.495">0</text>
+    <text id="AfghanisitanText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="304.69" y="139.701">0</text>
+    <text id="ChinaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="373.796" y="164.202">0</text>
+    <text id="MongoliaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="374.138" y="129.059">0</text>
+    <text id="JapanText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="432.53" y="130.665">0</text>
+    <text id="MiddleEastText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="285.318" y="179.342">0</text>
+    <text id="VenezuelaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="108.904" y="190.921">0</text>
+    <text id="BrazilText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="144.708" y="218.385">0</text>
+    <text id="PeruText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="94.818" y="218.901">0</text>
+    <text id="ArgentinaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="120.119" y="256.713">0</text>
+    <text id="NorthAfricaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="205.137" y="206.187">0</text>
+    <text id="EgyptText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="257.263" y="193.73">0</text>
+    <text id="EastAfricaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="270.382" y="235.441">0</text>
+    <text id="CongoText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="242.132" y="249.739">0</text>
+    <text id="SouthAfricaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="247.499" y="292.771">0</text>
+    <text id="MadagascarText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="291.783" y="292.355">0</text>
+    <text id="IndonesiaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="374.573" y="249.031">0</text>
+    <text id="NewGuineaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="412.811" y="235.959">0</text>
+    <text id="WesternAustraliaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="394.207" y="285.687">0</text>
+    <text id="EasternAustraliaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="432.374" y="286.245">0</text>
+    <text id="IndiaText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="344.224" y="192.487">0</text>
+    <text id="SiamText" style="font-family: &quot;Courier Prime&quot;; font-size: 7px; font-weight: 700; text-anchor: middle; white-space: pre;" x="372.24" y="209.735">0</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+// src/components/user/user.module.scss
+@import '../../global';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0px 12px 2px 2px; // Decreased padding to make everything smaller and closer to top
+  border-radius: 10px;
+  background-color: $primary-color;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px; // Decreased padding to make everything smaller
+  margin: 0px;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  .profileImg {
+    width: 48px; // Decreased size to make everything smaller
+    height: 48px; // Decreased size to make everything smaller
+    margin-right: 10px;
+  }
+
+  .username {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    font-family: $font-family;
+    padding: 5px; // Decreased padding to make everything smaller
+  }
+}
+
