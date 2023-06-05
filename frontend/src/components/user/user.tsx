@@ -1,8 +1,8 @@
-// src/components/user/user.tsx
+// src/components/user/User.tsx
 import React, { useState } from 'react';
 import styles from './user.module.scss';
 import classNames from 'classnames';
-import Button from '../button/button';
+import { LinkButton } from '../linkbutton/linkbutton';
 
 export interface UserProps {
     className?: string;
@@ -24,32 +24,32 @@ export const User = ({ className }: UserProps) => {
                         className={styles.profileImg}
                     />
                     <h2 className={styles.username}>Volcanex</h2>
-                    <Button
-                        isActive={isActive['Profile']}
-                        handleClick={() => handleClick('Profile')}
-                        label="+"
-                        isUsernameButton
-                    />
+
                 </div>
                 <div className={classNames(styles.navButtons)}>
-                    <Button
+                <LinkButton
+                        to="/"
                         isActive={isActive['Profile']}
-                        handleClick={() => handleClick('Profile')}
+                        label="Home"
+                    />
+                    <LinkButton
+                        to="/profile"
+                        isActive={isActive['Profile']}
                         label="Profile"
                     />
-                    <Button
+                    <LinkButton
+                        to="/play"
                         isActive={isActive['Play']}
-                        handleClick={() => handleClick('Play')}
                         label="Play"
                     />
-                    <Button
+                    <LinkButton
+                        to="/messages"
                         isActive={isActive['Messages']}
-                        handleClick={() => handleClick('Messages')}
                         label="Messages"
                     />
-                    <Button
+                    <LinkButton
+                        to="/about-us"
                         isActive={isActive['About us']}
-                        handleClick={() => handleClick('About us')}
                         label="About us"
                     />
                 </div>
