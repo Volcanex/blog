@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the URL of your server
-SERVER_URL="http://localhost:5000/api/blogs"
+SERVER_URL="http://127.0.0.1:5000/api/blogs"
 
 # Define the path to the JSON file
 JSON_FILE="./blog.json"
