@@ -1,3 +1,10 @@
+Application Structure and JSON Format
+This application is built with a frontend developed using React and a backend developed using Flask. It has the capability to dynamically load different components based on data stored in a JSON format.
+
+Each blog post is represented as a JSON object with the following structure:
+
+json
+
 {
   "postName": "My first blog post",
   "components": [
@@ -29,3 +36,20 @@
     }
   ]
 }
+Here:
+
+postName is the name of the blog post.
+components is an array of objects. Each object represents a component in the blog post.
+Each component object includes:
+
+componentType: the type of component (which corresponds to a React component in the frontend).
+props: an object containing the props to be passed to the component.
+Frontend
+The frontend dynamically loads and displays components based on the JSON data it receives. When it receives a blog post object, it iterates over the components array. For each object in the array, it dynamically imports the corresponding React component based on the componentType and passes the props to the component. This is handled by the Blog component in blog.tsx.
+
+Backend
+The backend stores and retrieves blog post data from a MongoDB database.
+
+It exposes a POST endpoint at /api/blogs to create new blog posts. To add a new blog post, you would send a POST request with the JSON representation of the blog post in the request body.
+
+It also exposes a GET endpoint at /api/blogs to retrieve all blog posts. This endpoint returns an array of blog post objects.

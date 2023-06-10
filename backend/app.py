@@ -100,8 +100,8 @@ def get_blogs():
     for blog in mongo.db.blogs.find():
         blogs.append({
             "_id": str(blog["_id"]),
-            "title": blog["title"],
-            "content": blog["content"]
+            "postName": blog["postName"],
+            "components": blog["components"]
         })
     return jsonify(blogs)
 
@@ -109,10 +109,11 @@ def get_blogs():
 def add_blog():
     data = request.get_json()
     new_blog = mongo.db.blogs.insert_one({
-        "title": data["title"],
-        "content": data["content"]
+        "postName": data["postName"],
+        "components": data["components"]
     })
     return jsonify({"_id": str(new_blog.inserted_id)})
+
 
 if __name__ == '__main__':
     app.run()
