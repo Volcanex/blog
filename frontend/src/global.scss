@@ -1,12 +1,13 @@
 // src/global.scss
 
 :root {
-    --primary-color: #ff6347;
-    --secondary-color: #6a5acd;
-    --tertiary-color: #40e0d0;
-    --quaternary-color: black;
+    --primary-color: #fdf0d5;
+    --secondary-color: #003049;
+    --tertiary-color: #c1121f;
+    --quaternary-color: #669bbc;
+    --fifth-color: var(--primary-color);
     
-    --text-color: white;
+    --text-color: var(--fifth-color);
     --font-size: 100%;
     --font-weight: 500;
     --font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -16,8 +17,8 @@
     --button-font-family: var(--font-family);
     --button-font-weight: 600;
     --button-background-color: var(--quaternary-color);
-    --button-border-color: #1A1A1A;
-    --button-text-color: #FFFFFF;
+    --button-border-color: var(--primary-color);
+    --button-text-color: var(--text-color);
     --button-transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     --button-box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   }

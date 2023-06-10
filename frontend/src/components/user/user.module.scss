@@ -5,7 +5,7 @@
   flex-direction: column;
   margin: 0;
   padding: 0px 12px 2px 2px; // Decreased padding to make everything smaller and closer to top
-  border-radius: var(--button-border-radius);
+  border-radius: 0;
   background-color: var(--secondary-color);
 }
 
@@ -27,6 +27,7 @@
     width: 48px; // Decreased size to make everything smaller
     height: 48px; // Decreased size to make everything smaller
     margin-right: 10px;
+    margin-left: 10px;
   }
 
   .username {

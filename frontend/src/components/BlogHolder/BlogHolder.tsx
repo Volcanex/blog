@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Blog, { BlogProps } from '../blog/blog';
+import Blog, { BlogProps } from '../Blog/Blog';
 import styles from './BlogHolder.module.scss';
 
 const BlogHolder = () => {
@@ -10,8 +10,11 @@ const BlogHolder = () => {
   useEffect(() => {
     axios.get('http://127.0.0.1:5000/api/blogs')
       .then(response => {
-        setBlogs(response.data);
-        setError("Connected! No data?");  // clear the error when data is successfully fetched
+        if(response.data.length === 0){
+          setError("Connected! No data?");
+        }else{
+          setBlogs(response.data);
+        }
       })
       .catch(error => {
         setError(error.message);  // set the error state if there was an error fetching data

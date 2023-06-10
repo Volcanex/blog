@@ -1,8 +1,8 @@
 // src/components/user/User.tsx
 import React, { useState } from 'react';
-import styles from './user.module.scss';
+import styles from './User.module.scss';
 import classNames from 'classnames';
-import { LinkButton } from '../linkbutton/linkbutton';
+import { LinkButton } from '../LinkButton/LinkButton';
 
 export interface UserProps {
     className?: string;

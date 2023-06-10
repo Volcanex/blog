@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import styles from '../button/button.module.scss';  // Update the path to your button styles if needed
+import styles from '../Button/Button.module.scss';  // Update the path to your button styles if needed
 import classNames from 'classnames';
 
 export interface LinkButtonProps {

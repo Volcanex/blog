@@ -2,9 +2,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styles from './App.module.scss';
-import { User } from './components/user/user';
-import { Home } from './components/home/home';
-import Blog from './components/blog/blog';
+import { User }from './components/User/User'
+import { Home } from './components/Home/Home';
+import Blog from './components/Blog/Blog';
 import BlogHolder from './components/BlogHolder/BlogHolder';
 
 // These can be replaced with your actual components for each route

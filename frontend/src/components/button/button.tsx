@@ -1,7 +1,7 @@
 // src/components/button/button.tsx
 import React from 'react';
 import classNames from 'classnames';
-import styles from './button.module.scss';
+import styles from './Button.module.scss';
 
 interface buttonProps {
     isActive: boolean;
