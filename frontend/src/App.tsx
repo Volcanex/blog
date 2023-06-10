@@ -5,6 +5,7 @@ import styles from './App.module.scss';
 import { User } from './components/user/user';
 import { Home } from './components/home/home';
 import Blog from './components/blog/blog';
+import BlogHolder from './components/BlogHolder/BlogHolder';
 
 // These can be replaced with your actual components for each route
 function Profile() {
@@ -27,7 +28,7 @@ function App() {
                     <User className={styles.navbar} />
                     <Routes>
                         <Route path="/profile" element={<Profile />} />
-                        <Route path="/blog" element={<Blog className={styles.yourClassHere} />} />
+                        <Route path="/blog" element={<BlogHolder postNames={['test-post-1', 'test-post-2']} />} />
                         <Route path="/messages" element={<Messages />} />
                         <Route path="/about-us" element={<AboutUs />} />
                         <Route path="/" element={<Home />} />

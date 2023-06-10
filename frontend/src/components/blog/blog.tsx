@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useState, useEffect, ComponentType } from 'react';
 
 // Defines the shape of the props expected by the Blog component.
-interface BlogProps {
+export interface BlogProps {
   postName: string;  // Title of the blog post.
   components: ComponentData[];  // An array of ComponentData objects that describe the components to be rendered.
 }
@@ -55,5 +55,6 @@ const Blog: React.FC<{ data: BlogProps }> = ({ data }) => {
     </div>
   );
 }
+
 
 export default Blog;

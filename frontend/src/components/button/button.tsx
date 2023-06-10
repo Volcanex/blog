@@ -5,7 +5,7 @@ import styles from './button.module.scss';
 
 interface buttonProps {
     isActive: boolean;
-    handleClick: () => void;
+    handleClick?: () => void;
     label: string;
     isUsernameButton?: boolean;
     children?: React.ReactNode; // add this line
@@ -13,6 +13,12 @@ interface buttonProps {
 }
 
 const Button: React.FC<buttonProps> = ({ isActive, handleClick, label, isUsernameButton }) => {
+    const onClickHandler = () => {
+        if (handleClick) {
+            handleClick();
+        }
+    };
+
     return (
         <button
             className={classNames(
@@ -21,7 +27,7 @@ const Button: React.FC<buttonProps> = ({ isActive, handleClick, label, isUsernam
                 isActive && styles.clicked,
                 isUsernameButton && styles.UsernameButton
             )}
-            onClick={handleClick}
+            onClick={onClickHandler} // Updated to use the new handler
         >
             {label}
         </button>
