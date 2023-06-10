@@ -8,10 +8,10 @@ const BlogHolder = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/blogs')
+    axios.get('http://127.0.0.1:5000/api/blogs')
       .then(response => {
         setBlogs(response.data);
-        setError(null);  // clear the error when data is successfully fetched
+        setError("Connected! No data?");  // clear the error when data is successfully fetched
       })
       .catch(error => {
         setError(error.message);  // set the error state if there was an error fetching data
