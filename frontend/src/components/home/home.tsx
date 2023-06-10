@@ -16,6 +16,7 @@ export function Home() {
         document.documentElement.style.setProperty('--primary-color', getRandomColor());
         document.documentElement.style.setProperty('--secondary-color', getRandomColor());
         document.documentElement.style.setProperty('--tertiary-color', getRandomColor());
+        document.documentElement.style.setProperty('--quaternary-color', getRandomColor());
     };
 
     return (

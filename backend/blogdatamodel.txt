@@ -1,0 +1,31 @@
+{
+  "postName": "My first blog post",
+  "components": [
+    {
+      "componentType": "Header",
+      "props": {
+        "text": "Welcome to my blog"
+      }
+    },
+    {
+      "componentType": "Paragraph",
+      "props": {
+        "text": "This is the first paragraph."
+      }
+    },
+    {
+      "componentType": "Image",
+      "props": {
+        "src": "https://example.com/image.jpg",
+        "alt": "An example image"
+      }
+    },
+    {
+      "componentType": "InteractivePoll",
+      "props": {
+        "question": "Do you like this blog post?",
+        "options": ["Yes", "No"]
+      }
+    }
+  ]
+}
