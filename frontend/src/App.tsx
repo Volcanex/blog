@@ -4,15 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styles from './App.module.scss';
 import { User } from './components/user/user';
 import { Home } from './components/home/home';
-
+import Blog from './components/blog/blog';
 
 // These can be replaced with your actual components for each route
 function Profile() {
     return <h2>Profile</h2>;
-}
-
-function Blog() {
-    return <h2>Blog</h2>;
 }
 
 function Messages() {
@@ -31,7 +27,7 @@ function App() {
                     <User className={styles.navbar} />
                     <Routes>
                         <Route path="/profile" element={<Profile />} />
-                        <Route path="/blog" element={<Blog />} />
+                        <Route path="/blog" element={<Blog className={styles.yourClassHere} />} />
                         <Route path="/messages" element={<Messages />} />
                         <Route path="/about-us" element={<AboutUs />} />
                         <Route path="/" element={<Home />} />
