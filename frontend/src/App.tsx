@@ -28,7 +28,7 @@ function App() {
                     <User className={styles.navbar} />
                     <Routes>
                         <Route path="/profile" element={<Profile />} />
-                        <Route path="/blog" element={<BlogHolder postNames={['test-post-1', 'test-post-2']} />} />
+                        <Route path="/blog" element={<BlogHolder />} />
                         <Route path="/messages" element={<Messages />} />
                         <Route path="/about-us" element={<AboutUs />} />
                         <Route path="/" element={<Home />} />
