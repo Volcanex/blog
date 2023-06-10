@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from flask_cors import CORS
+
+
+
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"  # Replace with your MongoDB connection string
@@ -115,5 +119,8 @@ def add_blog():
     return jsonify({"_id": str(new_blog.inserted_id)})
 
 
+CORS(app)
+
 if __name__ == '__main__':
     app.run()
+
