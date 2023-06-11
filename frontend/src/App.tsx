@@ -6,14 +6,11 @@ import { User }from './components/User/User'
 import { Home } from './components/Home/Home';
 import Blog from './components/Blog/Blog';
 import BlogHolder from './components/BlogHolder/BlogHolder';
+import Editor from './components/Editor/Editor';
 
 // These can be replaced with your actual components for each route
 function Profile() {
     return <h2>Profile</h2>;
-}
-
-function Messages() {
-    return <h2>Messages</h2>;
 }
 
 function AboutUs() {
@@ -29,7 +26,7 @@ function App() {
                     <Routes>
                         <Route path="/profile" element={<Profile />} />
                         <Route path="/blog" element={<BlogHolder />} />
-                        <Route path="/messages" element={<Messages />} />
+                        <Route path="/editor" element={<Editor />} />
                         <Route path="/about-us" element={<AboutUs />} />
                         <Route path="/" element={<Home />} />
                     </Routes>

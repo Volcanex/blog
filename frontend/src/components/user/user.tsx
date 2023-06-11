@@ -43,9 +43,9 @@ export const User = ({ className }: UserProps) => {
                         label="Blog"
                     />
                     <LinkButton
-                        to="/messages"
-                        isActive={isActive['Messages']}
-                        label="Messages"
+                        to="/editor"
+                        isActive={isActive['Editor']}
+                        label="Editor"
                     />
                     <LinkButton
                         to="/about-us"

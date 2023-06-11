@@ -53,3 +53,15 @@ The backend stores and retrieves blog post data from a MongoDB database.
 It exposes a POST endpoint at /api/blogs to create new blog posts. To add a new blog post, you would send a POST request with the JSON representation of the blog post in the request body.
 
 It also exposes a GET endpoint at /api/blogs to retrieve all blog posts. This endpoint returns an array of blog post objects.
+
+{
+  "postName": "My first blog post",
+  "components": [
+    {
+      "componentType": "Header",
+      "props": {
+        "text": "Welcome to my blog"
+      }
+    }
+  ]
+}
