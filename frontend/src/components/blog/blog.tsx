@@ -1,4 +1,6 @@
 import React, { Suspense, lazy, useState, useEffect, ComponentType } from 'react';
+import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
+
 
 // Component used when a module doesn't exist
 const ErrorComponent: React.FC<{ errorModule: string }> = ({ errorModule }) => {
@@ -56,17 +58,18 @@ const Blog: React.FC<{ data: BlogProps }> = ({ data }) => {
     <div>
       <h2>{data.postName}</h2>
       {data.components.map((componentData, index) => {
-        // Get the specific component for this part of the blog
-        const Component = componentMappings[componentData.componentType];
-  
-        // If the component exists, render it, otherwise show a loading div
-        return Component ? (
-          <Suspense key={`${componentData.componentType}-${index}`} fallback={<div>Loading...</div>}>
-            {/* Spread the props onto the Component */}
+    const Component = componentMappings[componentData.componentType];
+
+    return (
+        <ErrorBoundary key={index}>
+        {Component ? (
+            <Suspense fallback={<div>Loading...</div>}>
             <Component {...componentData.props} />
-          </Suspense>
-        ) : <div>Loading...</div>; // Show loading div until the component is loaded.
-      })}
+            </Suspense>
+        ) : <div>Component not found: {componentData.componentType}</div>}
+        </ErrorBoundary>
+    );
+    })}
     </div>
   );
 }
