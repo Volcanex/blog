@@ -1,24 +1,15 @@
 // src/global.scss
 
 :root {
-    --primary-color: #fdf0d5;
-    --secondary-color: #003049;
-    --tertiary-color: #c1121f;
-    --quaternary-color: #669bbc;
-    --fifth-color: var(--primary-color);
+    --default-primary-color: #FFFAF1;
+    --default-secondary-color: #003049;
+    --default-tertiary-color: #c1121f;
+    --default-quaternary-color: #D25E5E;
+    --default-fifth-color: var(--secondary-color);
     
-    --text-color: var(--fifth-color);
-    --font-size: 100%;
-    --font-weight: 500;
-    --font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --button-padding: 10px 20px;
-    --button-border-radius: 10px;
-    --button-font-size: 16px;
-    --button-font-family: var(--font-family);
-    --button-font-weight: 600;
-    --button-background-color: var(--quaternary-color);
-    --button-border-color: var(--primary-color);
-    --button-text-color: var(--text-color);
-    --button-transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    --button-box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    --primary-color: var(--default-primary-color);
+    --secondary-color: var(--default-secondary-color);
+    --tertiary-color: var(--default-tertiary-color);
+    --quaternary-color: var(--default-quaternary-color);
+    --fifth-color: var(--default-fifth-color);
   }
