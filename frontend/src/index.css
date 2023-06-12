@@ -8,6 +8,10 @@ body {
 
 }
 
+p {
+  color: var(--secondary-color);
+}
+
 h1 {
   color: var(--secondary-color);
 }

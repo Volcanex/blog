@@ -4,7 +4,7 @@ import styles from './EditorForm.module.scss';
 const EditorForm = () => {
   return (
     <div className={styles.container}>
-      {/* Your component code here */}
+      <h1>EditorForm</h1>
     </div>
   );
 };
