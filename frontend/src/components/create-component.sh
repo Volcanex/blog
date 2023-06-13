@@ -5,7 +5,7 @@ import styles from './$1.module.scss';
 
 const $1 = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.$1}>
       {/* Your component code here */}
     </div>
   );

@@ -17,7 +17,7 @@ const Editor = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.Editor}>
       <EditorForm />
       <EditorJSON onJSONChange={handleJSONChange} />
       {blogData && <Blog data={blogData} />}

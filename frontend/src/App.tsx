@@ -20,9 +20,11 @@ function AboutUs() {
 function App() {
     return (
         <div className={styles.App}>
-            <header className={styles['App-header']}>
-                <Router>
-                    <User className={styles.navbar} />
+            <Router>
+                <header className={styles['App-header']}>
+                    <User />
+                </header>
+                <main className={styles['App-main']}> {/* Add this class to your scss */}
                     <Routes>
                         <Route path="/profile" element={<Profile />} />
                         <Route path="/blog" element={<BlogHolder />} />
@@ -30,8 +32,8 @@ function App() {
                         <Route path="/about-us" element={<AboutUs />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
-                </Router>
-            </header>
+                </main>
+            </Router>
         </div>
     );
 }

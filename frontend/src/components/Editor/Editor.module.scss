@@ -3,12 +3,12 @@
 .Editor {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;  // updated this
   grid-gap: 20px;
   height: 100vh;
   padding: 20px;
   box-sizing: border-box;
-  overflow: hidden; // prevent grid from scrolling
+  overflow: hidden;
 }
 
 .EditorForm {
@@ -19,16 +19,16 @@
 .EditorJSON {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  overflow: auto; // allow EditorJSON to scroll
+  overflow: auto;
 }
 
 .EditorIndicator {
   grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-row: 3 / 4; // updated this
 }
 
 .Blog {
   grid-column: 2 / 3;
-  grid-row: 1 / 4;
-  overflow: auto; // allow Blog to scroll
+  grid-row: 1 / 4; // updated this
+  overflow: auto;
 }
