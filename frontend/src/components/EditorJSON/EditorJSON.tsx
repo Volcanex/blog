@@ -3,6 +3,7 @@ import Ace from 'react-ace';
 import 'ace-builds/src-noconflict/mode-json';
 import 'ace-builds/src-noconflict/theme-monokai';
 import EditorIndicator from '../EditorIndicator/EditorIndicator';
+import styles from './EditorJSON.module.scss';
 
 interface EditorJSONProps {
   onJSONChange: (json: any) => void;
@@ -29,10 +30,10 @@ const EditorJSON: React.FC<EditorJSONProps> = ({ onJSONChange }) => {
   };
 
   return (
-    <div>
+    <div className={styles.EditorJSON}>
       <Ace
         mode="json"
-        theme="monokai"
+        theme="chrome"
         value={json}
         onChange={handleEditorChange}
         name="JSON_EDITOR"
