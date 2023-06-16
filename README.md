@@ -1,8 +1,6 @@
-*Li-Risk*
+Portfolio Site
 
-I'm trying to make a lichess-like version of the board game risk 
-
-Hey, early doors here. Just setting everything up.
+Using craco to override create react app without messing up the webpack.
 
 DOCKER:
 
