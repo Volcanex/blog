@@ -1,3 +1,31 @@
+/**
+ * Blog Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @prop {BlogProps} data - The data for the blog post. This includes the post name and the components to be rendered.
+ * 
+ * @example
+ * // Example usage
+ * <Blog data={{postName: 'My Post', components: [{componentType: 'Text', props: {content: 'Hello, world!'}}]}} />
+ * 
+ * @overview The Blog component is a dynamic component renderer for a blog post. It takes a `data` prop of type `BlogProps`,
+ * which includes the name of the blog post and an array of `components`. Each item in the `components` array includes a `componentType` 
+ * and its corresponding `props`. These components are lazy-loaded into the blog post as they're needed, which optimizes performance 
+ * by reducing the initial page load time. An ErrorBoundary wraps each component to gracefully handle any errors that may occur 
+ * during the lifecycle of the child components. If a component can't be found, the `ErrorComponent` is rendered instead.
+ * 
+ * @see BlogHolder - For a component that holds multiple blogs and handles the layout.
+ * @see Editor - For the component that allows users to create and edit these blog posts.
+ * 
+ * @todo Implement error handling for failed imports in the `useEffect` hook (if not already handled by ErrorComponent).
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ */
+
 import React, { Suspense, lazy, useState, useEffect, ComponentType } from 'react';
 import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
 

@@ -1,3 +1,27 @@
+/**
+ * EditorJSON Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @prop {(json: any) => void} onJSONChange - The function to be called when the JSON content in the editor changes.
+ * 
+ * @example
+ * // Example usage
+ * <EditorJSON onJSONChange={(json) => console.log(json)} />
+ * 
+ * @overview The EditorJSON component is a JSON editor that validates JSON input and calls a provided function (`onJSONChange`) 
+ * with the parsed JSON object every time the content changes. The editor uses Ace Editor with the Monokai theme for a sleek, 
+ * code-friendly interface. JSON validation errors and success messages are displayed in an `EditorIndicator` component.
+ * 
+ * @see Editor - For parent component
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ *
+ */
+
 import React, { useState } from 'react';
 import Ace from 'react-ace';
 import 'ace-builds/src-noconflict/mode-json';
@@ -22,7 +46,7 @@ const EditorJSON: React.FC<EditorJSONProps> = ({ onJSONChange }) => {
       const parsedJson = JSON.parse(newJson);
       onJSONChange(parsedJson);
       setStatus('success'); // JSON was parsed successfully
-      setMessage('JSON is valid and has been successfully updated.');
+      setMessage('JSON is valid.');
     } catch (error: any) { // use 'any' type for error
       setStatus('error'); // There was an error parsing the JSON
       setMessage('Invalid JSON: ' + error.message); // Provide more detail about the error

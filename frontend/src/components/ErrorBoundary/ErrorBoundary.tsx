@@ -1,3 +1,27 @@
+/**
+ * ErrorBoundary Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @prop {ReactNode} children - The children elements to be wrapped by the ErrorBoundary.
+ * 
+ * @example
+ * // Example usage
+ * <ErrorBoundary>
+ *   <MyComponent />
+ * </ErrorBoundary>
+ * 
+ * @overview The ErrorBoundary is a component that catches JavaScript errors anywhere in their child component tree, 
+ * logs those errors, and displays a fallback UI instead of the component tree that crashed. It's a simple implementation 
+ * of the Error Boundary concept in React for handling errors in a component hierarchy.
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ */
+
+
 import React, { Component, ReactNode } from 'react';
 
 interface ErrorBoundaryProps {

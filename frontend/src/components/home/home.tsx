@@ -1,4 +1,22 @@
-// src/components/Home/Home.tsx
+/**
+ * Home Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @example
+ * // Example usage
+ * <Home />
+ * 
+ * @overview The Home component is a simple component displaying the homepage content.
+ * 
+ * @see StylerButton - For the component displayed inside Home.
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ */
+
 import React from 'react';
 import StylerButton from '../StylerButton/StylerButton';
 

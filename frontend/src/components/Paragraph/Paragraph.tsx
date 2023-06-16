@@ -1,3 +1,22 @@
+/**
+ * Paragraph Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @prop {string} [text] - The text to display in the paragraph.
+ * 
+ * @example
+ * // Example usage
+ * <Paragraph text="This is a sample text"/>
+ * 
+ * @overview The Paragraph component is a simple component that displays a single paragraph of text.
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ */
+
 import React from 'react';
 import styles from './Paragraph.module.scss';
 

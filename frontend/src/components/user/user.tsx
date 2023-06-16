@@ -1,3 +1,25 @@
+/**
+ * User Component
+ * 
+ * @component
+ * 
+ * @author Gabriel
+ * 
+ * @prop {string} [className] - Extra CSS class(es) to apply to the component.
+ * 
+ * @example
+ * // Example usage
+ * <User className="my-class" />
+ * 
+ * @overview The User component represents a user interface in the navigation bar, 
+ * which includes the user's profile picture, username, and navigation buttons.
+ * It uses the LinkButton component to render these navigation buttons.
+ * Each navigation button has an 'isActive' state, which can be toggled when clicked.
+ * 
+ * @lastUpdated 2023-06-14
+ * 
+ */
+
 // src/components/user/User.tsx
 import React, { useState } from 'react';
 import styles from './User.module.scss';

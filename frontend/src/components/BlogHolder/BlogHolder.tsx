@@ -1,3 +1,23 @@
+/**
+ *
+ * BlogHolder Component
+ *
+ * @component
+ *
+ * @overview The BlogHolder component is responsible for rendering multiple blog posts. It fetches blog data from an API endpoint
+ * and displays each blog using the Blog component. The component handles loading states and error handling to provide a seamless
+ * user experience.
+ *
+ * @see Blog - For the component that renders individual blog posts.
+ *
+ * @example
+ * // Example usage
+ * <BlogHolder />
+ *
+ * @lastUpdated 2023-06-14
+ *
+ */
+
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Blog, { BlogProps } from '../Blog/Blog';
