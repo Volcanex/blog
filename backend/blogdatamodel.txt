@@ -58,9 +58,11 @@ It also exposes a GET endpoint at /api/blogs to retrieve all blog posts. This en
   "postName": "My first blog post",
   "components": [
     {
-      "componentType": "Header",
+      "componentType": "IFrame",
       "props": {
-        "text": "Welcome to my blog"
+        "url": "https://example.com/embed"
+        "width": 20
+        "height": 30
       }
     }
   ]

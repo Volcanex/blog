@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node generateComponentProps.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "cd server && venv/bin/flask run"
+    "server": "cd server && venv/bin/flask run",
+    "parseprops": "node generateComponentProps.js"
   },
   "dependencies": {
     "classnames": "^2.3.2",
