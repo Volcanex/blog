@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import styles from './EditorFormChild.module.scss';
 
 interface ComponentProps {
