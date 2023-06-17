@@ -1,6 +1,29 @@
 #!/bin/bash
 mkdir $1
-echo "import React from 'react';
+echo "/**
+ * @componentName $1
+ * 
+ * @component
+ * 
+ * @author @Gabriel
+ * 
+ * @prop @{propType} {propName} - @{propDescription}
+ * 
+ * @example
+ * // Example usage
+ * <@componentName {propName}="@{propExampleValue}" />
+ * 
+ * @description @{componentDescription}
+ * 
+ * @see {IfApplicable}
+ * 
+ * @todo @{componentTodo} (Leave blank unless instructed otherwise)
+ * 
+ * @lastUpdated @{lastUpdatedDate} 
+ * 
+ */
+
+import React from 'react';
 import styles from './$1.module.scss';
 
 const $1 = () => {

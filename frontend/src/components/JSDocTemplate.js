@@ -11,7 +11,7 @@
  * // Example usage
  * <@componentName {propName}="@{propExampleValue}" />
  * 
- * @overview @{componentOverview}
+ * @description @{componentDescription}
  * 
  * @see {IfApplicable}
  * 
