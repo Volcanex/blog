@@ -9,7 +9,7 @@
  * // Example usage
  * <Home />
  * 
- * @overview The Home component is a simple component displaying the homepage content.
+ * @description  The Home component is a simple component displaying the homepage content.
  * 
  * @see StylerButton - For the component displayed inside Home.
  * 

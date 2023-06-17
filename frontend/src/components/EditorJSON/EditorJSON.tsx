@@ -11,7 +11,7 @@
  * // Example usage
  * <EditorJSON onJSONChange={(json) => console.log(json)} />
  * 
- * @overview The EditorJSON component is a JSON editor that validates JSON input and calls a provided function (`onJSONChange`) 
+ * @description  The EditorJSON component is a JSON editor that validates JSON input and calls a provided function (`onJSONChange`) 
  * with the parsed JSON object every time the content changes. The editor uses Ace Editor with the Monokai theme for a sleek, 
  * code-friendly interface. JSON validation errors and success messages are displayed in an `EditorIndicator` component.
  * 

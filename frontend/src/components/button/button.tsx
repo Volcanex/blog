@@ -4,7 +4,7 @@
  *
  * @component
  *
- * @overview The Button component is a reusable component for rendering buttons in a React application. It provides customizable
+ * @description  The Button component is a reusable component for rendering buttons in a React application. It provides customizable
  * styling and optional click handlers. The component supports different button types and can be used in various scenarios.
  *
  * @example

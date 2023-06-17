@@ -11,7 +11,7 @@
  * // Example usage
  * <Blog data={{postName: 'My Post', components: [{componentType: 'Text', props: {content: 'Hello, world!'}}]}} />
  * 
- * @overview The Blog component is a dynamic component renderer for a blog post. It takes a `data` prop of type `BlogProps`,
+ * @description The Blog component is a dynamic component renderer for a blog post. It takes a `data` prop of type `BlogProps`,
  * which includes the name of the blog post and an array of `components`. Each item in the `components` array includes a `componentType` 
  * and its corresponding `props`. These components are lazy-loaded into the blog post as they're needed, which optimizes performance 
  * by reducing the initial page load time. An ErrorBoundary wraps each component to gracefully handle any errors that may occur 

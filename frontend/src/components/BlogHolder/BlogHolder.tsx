@@ -4,7 +4,7 @@
  *
  * @component
  *
- * @overview The BlogHolder component is responsible for rendering multiple blog posts. It fetches blog data from an API endpoint
+ * @description The BlogHolder component is responsible for rendering multiple blog posts. It fetches blog data from an API endpoint
  * and displays each blog using the Blog component. The component handles loading states and error handling to provide a seamless
  * user experience.
  *

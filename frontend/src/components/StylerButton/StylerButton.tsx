@@ -9,7 +9,7 @@
  * // Example usage
  * <StylerButton />
  * 
- * @overview The StylerButton component is a color picker that can change the color theme of the application 
+ * @description  The StylerButton component is a color picker that can change the color theme of the application 
  * on the fly. It includes a list of colors, a button for each color to reset it to its default, and another button 
  * to open a color picker to choose a new color.
  * 

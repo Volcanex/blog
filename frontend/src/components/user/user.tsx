@@ -11,7 +11,7 @@
  * // Example usage
  * <User className="my-class" />
  * 
- * @overview The User component represents a user interface in the navigation bar, 
+ * @description  The User component represents a user interface in the navigation bar, 
  * which includes the user's profile picture, username, and navigation buttons.
  * It uses the LinkButton component to render these navigation buttons.
  * Each navigation button has an 'isActive' state, which can be toggled when clicked.

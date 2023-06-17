@@ -14,7 +14,7 @@
  * // Example usage
  * <LinkButton to="/my-path" label="Go to my path" isActive={true}/>
  * 
- * @overview The LinkButton component is a button that also acts as a link to a specified path. 
+ * @description The LinkButton component is a button that also acts as a link to a specified path. 
  * It's styled with optional active state.
  * 
  * @lastUpdated 2023-06-14
