@@ -36,17 +36,19 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
     return <div>Loading component information...</div>;
   }
 
-  const requiredProps = Object.entries(componentProps)
-    .filter(([propName, propData]) => propData.required)
-    .map(([propName, propData]) => `${propName}: ${propData.type.name}`);
+  const propsList = Object.entries(componentProps).map(([propName, propData]) => (
+    <p key={propName}>
+      {propName}: {propData.type.name}
+    </p>
+  ));
 
   return (
     <div className={styles.EditorFormChild}>
       <h2>{componentName}</h2>
-      <p>
-        Required Props: {requiredProps.length > 0 ? requiredProps.join(', ') : 'None'}
-      </p>
-      {/* Render other component information as needed */}
+      <div>
+        <h3>Props:</h3>
+        {propsList}
+      </div>
     </div>
   );
 };
