@@ -1,27 +1,3 @@
-/**
- * EditorJSON Component
- * 
- * @component
- * 
- * @author Gabriel
- * 
- * @prop {(json: any) => void} onJSONChange - The function to be called when the JSON content in the editor changes.
- * 
- * @example
- * // Example usage
- * <EditorJSON onJSONChange={(json) => console.log(json)} />
- * 
- * @description  The EditorJSON component is a JSON editor that validates JSON input and calls a provided function (`onJSONChange`) 
- * with the parsed JSON object every time the content changes. The editor uses Ace Editor with the Monokai theme for a sleek, 
- * code-friendly interface. JSON validation errors and success messages are displayed in an `EditorIndicator` component.
- * 
- * @see Editor - For parent component
- * 
- * @lastUpdated 2023-06-14
- * 
- *
- */
-
 import React, { useState } from 'react';
 import Ace from 'react-ace';
 import 'ace-builds/src-noconflict/mode-json';
@@ -36,7 +12,12 @@ interface EditorJSONProps {
 type StatusType = "idle" | "success" | "error";
 
 const EditorJSON: React.FC<EditorJSONProps> = ({ onJSONChange }) => {
-  const [json, setJson] = useState('{}');
+  const initialJSONContent = JSON.stringify({
+    "postName": "SaveName",
+    "components": []
+  }, null, 2); // Pretty-printing with 2-space indentation
+
+  const [json, setJson] = useState(initialJSONContent);
   const [status, setStatus] = useState<StatusType>('idle'); // specify the type here
   const [message, setMessage] = useState('');
 
@@ -55,6 +36,7 @@ const EditorJSON: React.FC<EditorJSONProps> = ({ onJSONChange }) => {
 
   return (
     <div className={styles.EditorJSON}>
+      <h2>JSON Editor</h2>
       <Ace
         mode="json"
         theme="chrome"

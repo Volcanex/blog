@@ -48,7 +48,7 @@ const EditorIndicator: React.FC<EditorIndicatorProps> = ({ status, message }) =>
 
   return (
     <div className={styles.container}>
-      <p>{statusIcon} {message || "Waiting for JSON input..."}</p>
+      <p>{statusIcon} {message || "Waiting for input"}</p>
     </div>
   );
 };

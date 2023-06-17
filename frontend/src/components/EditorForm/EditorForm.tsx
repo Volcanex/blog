@@ -34,6 +34,7 @@ const EditorForm = () => {
 
   return (
     <div className={styles.EditorForm}>
+      <h2>Editor Form</h2>
       <div className={styles.ComponentNameInput}>
         <input type="text" value={componentName} onChange={handleComponentNameChange} />
         <EditorIndicator status={status} message={message} />

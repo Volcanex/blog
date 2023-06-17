@@ -1,13 +1,19 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './EditorFormChild.module.scss';
 
 interface ComponentProps {
   [key: string]: any;
 }
 
+interface OutputProps {
+  [key: string]: any;
+}
+
 const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName }) => {
   const [componentProps, setComponentProps] = useState<ComponentProps | null>(null);
+  const [outputProps, setOutputProps] = useState<OutputProps>({});
   const [error, setError] = useState<string>('');
+  const [copied, setCopied] = useState<boolean>(false);
 
   useEffect(() => {
     fetch('/componentProps.json')  // The public folder is the root of your static files
@@ -17,6 +23,12 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
         if (componentData) {
           setComponentProps(componentData.props);
           setError('');
+          // Initialize outputProps with the names of the component's props
+          const initialOutputProps: OutputProps = {};
+          for (let propName in componentData.props) {
+            initialOutputProps[propName] = '';
+          }
+          setOutputProps(initialOutputProps);
         } else {
           setComponentProps(null);
           setError(`Component "${componentName}" not found.`);
@@ -37,10 +49,30 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
   }
 
   const propsList = Object.entries(componentProps).map(([propName, propData]) => (
-    <p key={propName}>
-      {propName}: {propData.type.name}
-    </p>
+    <div key={propName}>
+      <label>
+        {propName} ({propData.type.name}):
+        <input
+          type="text"
+          onChange={(e) => setOutputProps(prevProps => ({ ...prevProps, [propName]: e.target.value }))}
+          value={outputProps[propName]}
+        />
+      </label>
+    </div>
   ));
+
+  // Update the output JSON with your format
+  const outputJson = JSON.stringify({
+    componentType: componentName,
+    props: outputProps
+  }, null, 2);
+
+  const handleCopyJson = () => {
+    navigator.clipboard.writeText(outputJson).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // reset after 2 seconds
+    });
+  }
 
   return (
     <div className={styles.EditorFormChild}>
@@ -48,6 +80,13 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
       <div>
         <h3>Props:</h3>
         {propsList}
+      </div>
+      <div>
+        <h3>Generated JSON:</h3>
+        <button onClick={handleCopyJson} className={copied ? 'active' : ''}>Copy JSON</button>
+        <label className={styles.jsonLabel}>
+          {outputJson}
+        </label>
       </div>
     </div>
   );
