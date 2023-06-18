@@ -28,7 +28,7 @@
 
 import React, { Suspense, lazy, useState, useEffect, ComponentType } from 'react';
 import ErrorBoundary from '../ErrorBoundary/ErrorBoundary';
-
+import styles from './Blog.module.scss'
 
 // Component used when a module doesn't exist
 const ErrorComponent: React.FC<{ errorModule: string }> = ({ errorModule }) => {
@@ -83,8 +83,8 @@ const Blog: React.FC<{ data: BlogProps }> = ({ data }) => {
 
   // Render the blog
   return (
-    <div>
-      <h2>{data.postName}</h2>
+    <div className={styles.blog}>
+      <h1>{data.postName}</h1>
       {data.components.map((componentData, index) => {
     const Component = componentMappings[componentData.componentType];
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './EditorFormChild.module.scss';
-
+import Button from '../Button/Button';
 interface ComponentProps {
   [key: string]: any;
 }
@@ -70,7 +70,7 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
   const handleCopyJson = () => {
     navigator.clipboard.writeText(outputJson).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // reset after 2 seconds
+      setTimeout(() => setCopied(false), 0); // reset after 2 seconds
     });
   }
 
@@ -83,7 +83,7 @@ const EditorFormChild: React.FC<{ componentName: string }> = ({ componentName })
       </div>
       <div>
         <h3>Generated JSON:</h3>
-        <button onClick={handleCopyJson} className={copied ? 'active' : ''}>Copy JSON</button>
+        <Button isActive={copied} handleClick={handleCopyJson} label="Copy" />
         <label className={styles.jsonLabel}>
           {outputJson}
         </label>
