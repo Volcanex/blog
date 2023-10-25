@@ -32,9 +32,8 @@ interface buttonProps {
     handleClick?: () => void;
     label: string;
     isUsernameButton?: boolean;
-    children?: React.ReactNode; // add this line
-    onClick?: () => void; // add this line
-    style?: React.CSSProperties; // add this line
+    children?: React.ReactNode; 
+    style?: React.CSSProperties; 
     tag?: string;
 }
 
